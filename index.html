@@ -33,7 +33,6 @@ fbq('init','1639278147152508');fbq('track','PageView');
       <p class="wm"><span class="chrome">MÉTODO</span> <span class="red">M.A.P.A.</span> <span class="chrome">DO MILHÃO</span></p>
       <h1>O caminho que levou o meu supermercado de <span class="silver">R$ 17 mil</span> para <span class="red-t">+R$ 1,5 milhão por mês</span>, passo a passo, para você aplicar no seu.</h1>
       <p class="lead">Margem, Arrumação, Promoção e Atração: os 4 passos que fazem qualquer supermercado vender mais e, principalmente, ver o dinheiro sobrar no fim do mês.</p>
-      <a class="btn js-checkout" href="#oferta">Quero o Método M.A.P.A.</a>
       <p class="hero-note"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2l8 3v6c0 5-3.4 9.4-8 11-4.6-1.6-8-6-8-11V5l8-3z"/></svg> Garantia de 7 dias: se não for para você, devolvo 100% do valor.</p>
     </div>
     <div class="hero-photo"><img src="assets/bracos-cine.webp" alt="David Otoni" width="1100" height="1300"></div>
@@ -258,7 +257,7 @@ fbq('init','1639278147152508');fbq('track','PageView');
 
 <script>
   // Link do checkout da Cakto (oferta de R$ 997). Enquanto estiver vazio, os botões rolam até a oferta.
-  const CHECKOUT_URL = "";
+  const CHECKOUT_URL = "https://pay.cakto.com.br/98k3nx2_1210345";
   document.querySelectorAll(".js-checkout").forEach(a => {
     if (CHECKOUT_URL) a.href = CHECKOUT_URL;
     a.addEventListener("click", () => window.fbq && fbq("track", "InitiateCheckout"));
